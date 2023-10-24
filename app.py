@@ -9,7 +9,7 @@ import gradio as gr
 import numpy as np
 import PIL.Image
 import torch
-from diffusers import AutoencoderKL, StableDiffusionXLPipeline
+from diffusers import AutoencoderKL, StableDiffusionXLPipeline, DiffusionPipeline
 import uuid
 
 DESCRIPTION = '''# Segmind Stable Diffusion: SSD-1B
